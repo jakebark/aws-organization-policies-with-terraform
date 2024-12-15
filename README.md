@@ -60,7 +60,7 @@ module "scps" {
 
 ## Related Resources
 
-- [SCP examples(https://github.com/aws-samples/service-control-policy-examples) 
+- [SCP examples](https://github.com/aws-samples/service-control-policy-examples)
 - [RCP examples](https://github.com/aws-samples/data-perimeter-policy-examples/tree/main/resource_control_policies)
 - [aws-samples/aws-scps-with-terraform](https://github.com/aws-samples/aws-scps-with-terraform)
 
