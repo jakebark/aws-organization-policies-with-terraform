@@ -57,7 +57,6 @@ module "scps" {
 
 `policies_directory` can be used to change the name and location of the directory used to store policies. Otherwise it will default to the name of the policy type. 
 
-```
 
 ## Related Resources
 
