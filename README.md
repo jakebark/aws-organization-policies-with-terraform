@@ -4,7 +4,7 @@ Deploy SCPs, RCPs, and other organizational policies with Terraform.
 
 
 ## Module Inputs
-SCPs:
+SCP example:
 ```hcl
 module "scps" {
   source = "github.com/jakebark/aws-organization-policies-with-terraform"
@@ -16,7 +16,7 @@ module "scps" {
   }
 }
 ```
-RCPs:
+RCP example:
 ```hcl
 module "rcps" {
   source = "github.com/jakebark/aws-organization-policies-with-terraform"
@@ -31,7 +31,9 @@ module "rcps" {
 
 A new module needs to be created for each policy type. 
 
-`ou_map` is a map of OU IDs and the policies attached to them. Policies are stored as JSON files in an adjacent directory. The directory name defaults to the policy type, eg `./service_control_policy/`. The above two module inputs would look like this:
+`ou_map` is a map of OU IDs and the policies attached to them. Policies are stored as JSON files in an adjacent directory. The directory name defaults to the policy type, eg `./service_control_policy/`.
+
+The above two module inputs would look like this:
 ```
 .
 ├── resource_control_policy
